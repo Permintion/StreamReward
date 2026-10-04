@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "dev.streamrewards.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"CameraMixin",
+		"EntityTurnMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

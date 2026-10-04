@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "streamrewards",
+	"version": "${version}",
+	"name": "Stream Rewards",
+	"description": "Награды за баллы канала Twitch, которые влияют на игру в Minecraft.",
+	"authors": [
+		"Streamer"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/streamrewards/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.streamrewards.StreamRewardsClient"
+		]
+	},
+	"mixins": [
+		"streamrewards.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
